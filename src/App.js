@@ -77,6 +77,10 @@ function App() {
             {item.description}
             {item.img} */}
           <img src={item.img} alt={item.model} width="300" height="300"/>
+          <p>{item.model}</p>
+          <p>{item.year}</p>
+          <p>{item.price}</p>
+          <p>{item.rentalCompany}</p>
           </li>
         ))}
       </ul>

@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# RentCarEasy - Car Rental Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application that provides car rental services in Ukraine. The application consists of three main pages:
 
-## Available Scripts
+1. **Home Page**: General description of the services offered by the company.
+2. **Car Catalog**: Catalog of cars of various configurations that can be filtered by brand, hourly rental price, and mileage.
+3. **Favorite Listings**: Listings added by the user to their favorites.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+- Viewing car rental listings.
+- Filtering listings by car brand, price, and mileage.
+- Adding and removing listings to/from the favorites list.
+- Displaying detailed information about a car and its rental conditions in a modal window.
+- The ability to contact the company for car rental.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React: JavaScript library for user interface development.
+- React Router: For routing and navigation between pages.
+- MockAPI: For simulating a backend and storing listings.
 
-### `npm test`
+## Installation and Usage Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository to your computer:
 
-### `npm run build`
+    ```bash
+   git clone https://github.com/your-username/rentcar-easy.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    cd rentcar-easy
+    ```
+2. Install the dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm install
+    ```
+3. Run the application:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    ```
+4. Open the application in your browser at http://localhost:3000.
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Home Page](https://res.cloudinary.com/dk0rzgyzj/image/upload/v1696785897/homepage_al1dm2.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Car Catalog](https://res.cloudinary.com/dk0rzgyzj/image/upload/v1696785897/catalog_czprhz.jpg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Favorite Listings](https://res.cloudinary.com/dk0rzgyzj/image/upload/v1696785897/favorites_zve0fd.jpg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Car Details](https://res.cloudinary.com/dk0rzgyzj/image/upload/v1696785897/cardetails_vjgr3j.jpg)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Author
+Author of this project: **Petro Shutak**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you have any questions or suggestions regarding this project, please feel free to contact me.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

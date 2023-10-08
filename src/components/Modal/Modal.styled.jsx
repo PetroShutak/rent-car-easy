@@ -7,6 +7,7 @@ export const Overlay = styled.div`
     width: 100vw;
     height: 100vh;
     background-color: var( --secondary-text-color);
+    backdrop-filter: blur(2px);
 `;
 
 export const ModalStyled = styled.div`

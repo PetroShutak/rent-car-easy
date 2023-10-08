@@ -25,9 +25,9 @@ This is a web application that provides car rental services in Ukraine. The appl
 1. Clone the repository to your computer:
 
     ```bash
-   git clone https://github.com/your-username/rentcar-easy.git
+   git clone https://github.com/your-username/rent-car-easy.git
 
-    cd rentcar-easy
+    cd rent-car-easy
     ```
 2. Install the dependencies:
 
@@ -55,9 +55,14 @@ This is a web application that provides car rental services in Ukraine. The appl
 
 
 Author
-Author of this project: **Petro Shutak**.
+ **Petro Shutak**.
 
 If you have any questions or suggestions regarding this project, please feel free to contact me.
+
+- Email: petro.shutak.ua@gmail.com
+
+
+
 
 
 

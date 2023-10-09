@@ -163,4 +163,5 @@ export const Button = styled.a`
         &:hover,
         &:focus {
         background-color: var(--hover-color);
+        cursor: "pointer";
 `;

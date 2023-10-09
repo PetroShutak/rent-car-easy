@@ -43,6 +43,7 @@ export const iconStyles = {
     right: 12,
     width: 22,
     height: 22,
+    cursor: 'pointer',
 };
 
 export const Image = styled.img`
@@ -159,7 +160,7 @@ export const Button = styled.a`
     font-weight: 600;
     line-height: 1.43;
     transition: background-color var(--transition);
-
+    cursor: 'pointer';
         &:hover,
         &:focus {
         background-color: var(--hover-color);

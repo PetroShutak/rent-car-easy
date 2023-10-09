@@ -43,6 +43,7 @@ export const iconStyles = {
     right: 12,
     width: 22,
     height: 22,
+    cursor: "pointer",
 };
 
 export const Image = styled.img`

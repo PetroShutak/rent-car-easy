@@ -31,7 +31,7 @@ const Catalog = () => {
     }, [dispatch, page]); 
 
     useEffect(() => {
-        if (arrayForRender.length === 36) {
+        if (arrayForRender.length === 33) {
             setIsBtnShown(false)
         }
     }, [arrayForRender.length]);
